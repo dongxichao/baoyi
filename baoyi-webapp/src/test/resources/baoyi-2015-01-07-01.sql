@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : localhost
 Source Server Version : 50067
 Source Host           : localhost:3306
-Source Database       : frameweb
+Source Database       : baoyi
 
 Target Server Type    : MYSQL
 Target Server Version : 50067
 File Encoding         : 65001
 
-Date: 2014-08-27 15:51:24
+Date: 2015-01-07 17:53:01
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -40,30 +40,14 @@ CREATE TABLE `t_action` (
 INSERT INTO `t_action` VALUES ('00373dc94a1610aab1a50b060bb17e88', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '分配角色', 'assign', 'icon-standard-key-go', 'Button', 'disable', 'glacier.system_mgr.user_mgr.user.roleAssign();', '4', null);
 INSERT INTO `t_action` VALUES ('081b6469db43ca2d09c8c4393b838529', 'a652d3fe69c067cb94b73361351b8378', '5cd4cb6d36559b7d7e3a022e53a3bd71', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.news_mgr.news.editNews();', '2', null);
 INSERT INTO `t_action` VALUES ('18060139f0e736a796d5ac4bdd78eadc', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.role_mgr.role.editRole();', '2', null);
-INSERT INTO `t_action` VALUES ('18060139f0e736a796d5ac4bdd78eads', 't110147c5e6c1e94ee70cc833aa7f5d3', '21gfdg1rgrh1dfhsjdfh124564sdf21d', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.age_mgr.age.addAge();', '2', null);
 INSERT INTO `t_action` VALUES ('19e69166495bc3e74f11c5cbe3bc5ce5', '88ee044d59911b3b1a67ba4cdd0ee90d', '86d2ccad701f94c9e80d71557b1c62e6', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.announcement_mgr.announcement.editAnnouncement();', '2', null);
-INSERT INTO `t_action` VALUES ('1fb7d55569a297d8c9c8df576e7aa3c6', '3d69786613fe15615172d1ae22defed4', 'f77e36ed70a04d8123a466f8dd0a9b5b', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.integralType_mgr.integralType.delIntegralType();', '3', null);
-INSERT INTO `t_action` VALUES ('2213139f0e736a796d5ac4bdd78332', 'sdeg454c5e6c1e94ee70cc833asd142', '34eg454c5e6c1e94ee70cc833asd87', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.integral_mgr.integral.delIntegral();', '3', null);
-INSERT INTO `t_action` VALUES ('2353539f0e736a796d5ac4bdd78eadc', 'de34654c5e6c1e94ee70cc833asd142', 'swdf697aea23532eb8162f5ba1818c6f', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.area_mgr.area.editArea();', '2', null);
-INSERT INTO `t_action` VALUES ('25860139f0e736a796d5ac4bdd78147', 'v465654c5e6c1e94ee70cc833asd142', '87gfdg1rgrh1dfhsjdfh124564sderbg', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.credit_mgr.credit.addCredit();', '1', null);
-INSERT INTO `t_action` VALUES ('28060139f0e736a796d5ac4bdd78dawx', 't110147c5e6c1e94ee70cc833aa7f5d3', '21gfdg1rgrh1dfhsjdfh124564sdf21d', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.age_mgr.age.editAge();', '3', null);
-INSERT INTO `t_action` VALUES ('2847af4d9e73cd7a4c1a5b1933cac4c0', '33f5e9959e821a58696e2d2fb5c322fc', '98954ee69de34d2515468cbc031376ec', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.question_mgr.question.addQuestion();', '1', null);
 INSERT INTO `t_action` VALUES ('28909d485e495c2c137aca2d669645d3', '54d652799e07bb8be54483301a89ff90', '28fe18d693742ae7db094fc750715c46', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.help_mgr.help.addHelp();', '1', null);
-INSERT INTO `t_action` VALUES ('2c3f7432c92f50ae582efd60424c025f', '054464fdb73c76b5cfd4efa16fcaa8e1', 'a6776188d6b27af2659a71f77ff71e02', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.creditType_mgr.creditType.addCreditType();', '1', null);
 INSERT INTO `t_action` VALUES ('2d3cba66f556c98c52a47e4636da3e17', '5b6eaabb2c3a020c4d85ab50d11ffd85', '20814591aaa67351ab28198ec8531c80', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.link_mgr.link.editLink();', '2', null);
 INSERT INTO `t_action` VALUES ('32740020a8816f83b38564a64eee4278', 'e42b98561176563f930d82c80b041ed8', 'f769a64bb571aa0c7ac269b807af4782', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.system_mgr.loginlog_mgr.loginlog.delLoginlog();', '1', null);
-INSERT INTO `t_action` VALUES ('34560139f0e736a796d5ac4bdd78344', 'sdeg454c5e6c1e94ee70cc833asd142', '34eg454c5e6c1e94ee70cc833asd87', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.integral_mgr.integral.addIntegral();', '1', null);
-INSERT INTO `t_action` VALUES ('35860139f0e736a796d5ac4bdd78147', 'v465654c5e6c1e94ee70cc833asd142', '87gfdg1rgrh1dfhsjdfh124564sderbg', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.credit_mgr.credit.editCredit();', '2', null);
-INSERT INTO `t_action` VALUES ('38060139f0e736a796d5ac4bdd78escs', 't110147c5e6c1e94ee70cc833aa7f5d3', '21gfdg1rgrh1dfhsjdfh124564sdf21d', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.age_mgr.age.delAge();', '4', null);
 INSERT INTO `t_action` VALUES ('429f54b614db46af58598c8d9a47a36f', '54eb754157cf483a790f4eea35200118', '961d2e73b3fa93a9f125fb731e0a9529', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.delPanel();', '3', null);
-INSERT INTO `t_action` VALUES ('43286edc2a67d2cc48258ed3445fcb7c', '3d69786613fe15615172d1ae22defed4', 'f77e36ed70a04d8123a466f8dd0a9b5b', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.integralType_mgr.integralType.addIntegralType();', '1', null);
-INSERT INTO `t_action` VALUES ('4353539f0e736a796d5ac4bdd78eadc', 'de34654c5e6c1e94ee70cc833asd142', 'swdf697aea23532eb8162f5ba1818c6f', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.area_mgr.area.addArea();', '1', null);
-INSERT INTO `t_action` VALUES ('4586054157cf483a790f4eea35dsf6f6', 'v465654c5e6c1e94ee70cc833asd142', '87gfdg1rgrh1dfhsjdfh124564sderbg', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.credit_mgr.credit.delCredit();', '3', null);
 INSERT INTO `t_action` VALUES ('47825847f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '3456eg4157cf483a790f4eea35ds5675', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.editOptgroupValue();', '2', null);
 INSERT INTO `t_action` VALUES ('4935ba0942f42d408c8205e92d7266d9', 'e75a41ba4a2bc299e3b50a15580a103b', '93fc21dd1e7d69dd439c77c9e94e25af', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.service_mgr.service.addService();', '1', null);
 INSERT INTO `t_action` VALUES ('4bde011f88760fd616c223d118eab841', '4f1b6666b70be892469b6e93c1eb30ce', '780a15a12d2fc981cccb418dafce08b2', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.nav_mgr.nav.addNav();', '1', null);
-INSERT INTO `t_action` VALUES ('4c81203b3b78f009a00b76f4b5c2f1c6', '703a3f819925f89a9c370c0324d784a0', 'b10c70408381896f937bfe688daf8c25', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.member_mgr.messageNotice_mgr.messageNotice.editMessageNotice();', '2', null);
-INSERT INTO `t_action` VALUES ('56890139f0e736a796d5ac4bdd78211', 'sdeg454c5e6c1e94ee70cc833asd142', '34eg454c5e6c1e94ee70cc833asd87', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.integral_mgr.integral.editIntegral();', '2', null);
 INSERT INTO `t_action` VALUES ('5825847f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '3456eg4157cf483a790f4eea35ds5675', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.delOptgroupValue();', '3', null);
 INSERT INTO `t_action` VALUES ('58660bccb69289b1f0299d9a664931d3', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.system_mgr.user_mgr.user.editUser();', '2', null);
 INSERT INTO `t_action` VALUES ('58c66ce489e1ee8588e881a1abe9de56', '93f0fcfa7cdff069d929723062b53211', 'e6784ccad10e3414b99b77b303a338c7', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.variables_mgr.variables.editVariables();', '2', null);
@@ -71,51 +55,188 @@ INSERT INTO `t_action` VALUES ('5a4171d71d37ecd90cad18fb915b514b', 'e75a41ba4a2b
 INSERT INTO `t_action` VALUES ('5c2965033bb62ab747c3d1c74adb72c8', '5b6eaabb2c3a020c4d85ab50d11ffd85', '20814591aaa67351ab28198ec8531c80', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.link_mgr.link.delLink();', '3', null);
 INSERT INTO `t_action` VALUES ('5c630948779113b05eba2bee11430518', 'b34761b59816e63743643c6f179683a4', 'b8a03efe50a44d460983badb4be96eea', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.advertisement_mgr.advertisement.editAdvertisement();', '2', null);
 INSERT INTO `t_action` VALUES ('5db796929f23e991708fd0af99b3b4bc', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.role_mgr.role.addRole();', '1', null);
-INSERT INTO `t_action` VALUES ('5ec88454af4be3068ddb590c76edd72b', '9dc3357651c9ecbb9b7c51005be28d18', '5a5b45f5c22bb597247bf1ba380f8968', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.member_mgr.secretSecurity_mgr.secretSecurity.delSecretSecurity();', '1', null);
 INSERT INTO `t_action` VALUES ('6838d18fa1e582d4dc28404a80445c88', '54eb754157cf483a790f4eea35200118', '5731697aea23532eb8162f5ba1818c6f', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.res_mgr.res.addMenu();', '1', null);
 INSERT INTO `t_action` VALUES ('6c0bc1e009b3742af24d7bdc94adec3c', '54eb754157cf483a790f4eea35200118', '961d2e73b3fa93a9f125fb731e0a9529', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.res_mgr.res.addPanel();', '1', null);
 INSERT INTO `t_action` VALUES ('6e1027dd7e57195d06dd2fac811f8ebf', '54eb754157cf483a790f4eea35200118', '5731697aea23532eb8162f5ba1818c6f', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.editMenu();', '2', null);
-INSERT INTO `t_action` VALUES ('6e2f6c1b5c542cb289cdadb07c9164b9', '33f5e9959e821a58696e2d2fb5c322fc', '98954ee69de34d2515468cbc031376ec', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.question_mgr.question.delQuestion();', '3', null);
 INSERT INTO `t_action` VALUES ('6ebb0c66afb41e8cf0d890ea46ab54ca', 'ac892df07f9087fb1c89ac968bb5f555', '557cf8b2740e6792f517138703afb407', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.system_mgr.operalog_mgr.operalog.delOperalog();', '1', null);
 INSERT INTO `t_action` VALUES ('7264da6cb6fbe51c0731119ff4865695', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'a1d130de95607ffc00fb455c749cf1a1', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.hiring_mgr.hiring.addHiring();', '1', null);
 INSERT INTO `t_action` VALUES ('762515461de7429f5b008585301cdf48', 'a652d3fe69c067cb94b73361351b8378', '5cd4cb6d36559b7d7e3a022e53a3bd71', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.news_mgr.news.addNews();', '1', null);
 INSERT INTO `t_action` VALUES ('7fd16b2771ba4b31024e586eb3ca6e6b', '54d652799e07bb8be54483301a89ff90', '28fe18d693742ae7db094fc750715c46', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.help_mgr.help.delHelp();', '3', null);
-INSERT INTO `t_action` VALUES ('83da88e1222fd62309915a2ccee9bd52', '054464fdb73c76b5cfd4efa16fcaa8e1', 'a6776188d6b27af2659a71f77ff71e02', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.creditType_mgr.creditType.editCreditType();', '2', null);
-INSERT INTO `t_action` VALUES ('84ed9df00a0bcb687170e6a09767b4d2', '703a3f819925f89a9c370c0324d784a0', 'b10c70408381896f937bfe688daf8c25', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.member_mgr.messageNotice_mgr.messageNotice.addMessageNotice();', '1', null);
 INSERT INTO `t_action` VALUES ('84fd30c2b03282a32dd9e0d552130442', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.user_mgr.user.addUser();', '1', null);
 INSERT INTO `t_action` VALUES ('8530139f0e736a796d5ac4bdd78eadc', 'sdsfeg4157cf483a790f4eea35ds5675', '4546fgrgrh1dfhsjdfh124564sdf2sag', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.addOptgroup();', '1', null);
 INSERT INTO `t_action` VALUES ('8537147f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '4546fgrgrh1dfhsjdfh124564sdf2sag', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.delOptgroup();', '3', null);
 INSERT INTO `t_action` VALUES ('8537899f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '4546fgrgrh1dfhsjdfh124564sdf2sag', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.editOptgroup();', '2', null);
 INSERT INTO `t_action` VALUES ('8d107485b9e1aefcd257e0b97fb38023', '4f1b6666b70be892469b6e93c1eb30ce', '780a15a12d2fc981cccb418dafce08b2', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.nav_mgr.nav.delNav();', '3', null);
-INSERT INTO `t_action` VALUES ('8dd9d2808e9363daf78642bcb64bfa7e', '4c654b11b08eecbf6eb4e6688ea83b7d', 'fc5113080081ca9c40d5fc0a7b66da8b', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.member_mgr.member_mgr.member.editMember();', '2', null);
 INSERT INTO `t_action` VALUES ('8eb3b50d119f05c30127c3359e4a5d2a', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.role_mgr.role.delRole();', '3', null);
 INSERT INTO `t_action` VALUES ('9320f5b0199abd8d53990eef7cdcd745', '54eb754157cf483a790f4eea35200118', 'eb2a84c4b7bd11632135e4992ade286e', '编辑', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.editAction();', '2', null);
 INSERT INTO `t_action` VALUES ('96325847f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '3456eg4157cf483a790f4eea35ds5675', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.addOptgroupValue();', '1', null);
 INSERT INTO `t_action` VALUES ('9b230bb84a2df248ad7a4d506d06f28c', 'b34761b59816e63743643c6f179683a4', 'b8a03efe50a44d460983badb4be96eea', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.advertisement_mgr.advertisement.delAdvertisement();', '3', null);
 INSERT INTO `t_action` VALUES ('9cdc7b08f06304c42f1e6c408f170fcb', '93f0fcfa7cdff069d929723062b53211', 'e6784ccad10e3414b99b77b303a338c7', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.variables_mgr.variables.addVariables();', '1', null);
-INSERT INTO `t_action` VALUES ('9f9e45b7c4cd5416067357793231eb85', '8b442566ffbc9531ee5e3aef7c41d740', '0ff45a0906e1ec4b169953b2c177db3e', '审核', 'auth', 'icon-standard-attach', 'Button', 'enable', 'glacier.member_mgr.memberAuth_mgr.memberAuth.authMemberAuth();', '1', null);
-INSERT INTO `t_action` VALUES ('a04ae9ab4aeffa6fbffbae0f3630aa64', '4c654b11b08eecbf6eb4e6688ea83b7d', 'fc5113080081ca9c40d5fc0a7b66da8b', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.member_mgr.member_mgr.member.addMember();', '1', null);
 INSERT INTO `t_action` VALUES ('a27471575ce1f86d15e43a163b2195dd', '5b6eaabb2c3a020c4d85ab50d11ffd85', '20814591aaa67351ab28198ec8531c80', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.link_mgr.link.addLink();', '1', null);
 INSERT INTO `t_action` VALUES ('a34eddbd653c462a87afe23eab0c6391', 'b34761b59816e63743643c6f179683a4', 'b8a03efe50a44d460983badb4be96eea', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.advertisement_mgr.advertisement.addAdvertisement();', '1', null);
-INSERT INTO `t_action` VALUES ('a8167ddeb588a6b88b81c81fbf1504a9', '3d69786613fe15615172d1ae22defed4', 'f77e36ed70a04d8123a466f8dd0a9b5b', ' 修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.integralType_mgr.integralType.editIntegralType();', '2', null);
 INSERT INTO `t_action` VALUES ('ad2388e634c5e313d1c71eecdc849cb6', '88ee044d59911b3b1a67ba4cdd0ee90d', '86d2ccad701f94c9e80d71557b1c62e6', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.announcement_mgr.announcement.delAnnouncement();', '3', null);
 INSERT INTO `t_action` VALUES ('b0648b51ebbf9831702a3f616a75ca3a', 'a652d3fe69c067cb94b73361351b8378', '5cd4cb6d36559b7d7e3a022e53a3bd71', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.news_mgr.news.delNews();', '3', null);
 INSERT INTO `t_action` VALUES ('b5852fac0798a25a13b87e8532c60440', '54eb754157cf483a790f4eea35200118', '5731697aea23532eb8162f5ba1818c6f', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.delMenu();', '3', null);
 INSERT INTO `t_action` VALUES ('b7e88da8c1dec3668ca66340dabee03f', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '授权', 'auth', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.role_mgr.role.actionAuth();', '4', null);
 INSERT INTO `t_action` VALUES ('ba99418ca949feedcedfa04396235827', 'e75a41ba4a2bc299e3b50a15580a103b', '93fc21dd1e7d69dd439c77c9e94e25af', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.service_mgr.service.delService();', '3', null);
-INSERT INTO `t_action` VALUES ('bb182dacbb7641b9a337962406a6281f', '33f5e9959e821a58696e2d2fb5c322fc', '98954ee69de34d2515468cbc031376ec', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.question_mgr.question.editQuestion();', '2', null);
-INSERT INTO `t_action` VALUES ('be0471ff12b16ba7ef172aecd18ca4a4', '054464fdb73c76b5cfd4efa16fcaa8e1', 'a6776188d6b27af2659a71f77ff71e02', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.creditType_mgr.creditType.delCreditType();', '3', null);
 INSERT INTO `t_action` VALUES ('c50c979b621ff41f0677cdf02e29648b', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'a1d130de95607ffc00fb455c749cf1a1', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.hiring_mgr.hiring.editHiring();', '2', null);
 INSERT INTO `t_action` VALUES ('dad8f671986722837f7eecb2b77c284b', '54eb754157cf483a790f4eea35200118', '961d2e73b3fa93a9f125fb731e0a9529', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.editPanel();', '2', null);
 INSERT INTO `t_action` VALUES ('e1e5268cff61dc4231932ae1484caf97', '93f0fcfa7cdff069d929723062b53211', 'e6784ccad10e3414b99b77b303a338c7', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.variables_mgr.variables.delVariables();', '3', null);
 INSERT INTO `t_action` VALUES ('e450b55ffaeca413fdd6551591993893', '88ee044d59911b3b1a67ba4cdd0ee90d', '86d2ccad701f94c9e80d71557b1c62e6', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.announcement_mgr.announcement.addAnnouncement();', '1', null);
 INSERT INTO `t_action` VALUES ('e550884c5e6c1e94a970cc833aa1c2b9', '54eb754157cf483a790f4eea35200118', 'eb2a84c4b7bd11632135e4992ade286e', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.res_mgr.res.addAction();', '1', null);
 INSERT INTO `t_action` VALUES ('e637975493d65070499ebfb8b15b37f6', '54d652799e07bb8be54483301a89ff90', '28fe18d693742ae7db094fc750715c46', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.help_mgr.help.editHelp();', '2', null);
-INSERT INTO `t_action` VALUES ('e6dc58cf519c048b4674a4581054d237', '703a3f819925f89a9c370c0324d784a0', 'b10c70408381896f937bfe688daf8c25', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.member_mgr.messageNotice_mgr.messageNotice.delMessageNotice();', '3', null);
 INSERT INTO `t_action` VALUES ('f4b5eca05e616d411f1aeef044346664', '54eb754157cf483a790f4eea35200118', 'eb2a84c4b7bd11632135e4992ade286e', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.delAction();', '3', null);
 INSERT INTO `t_action` VALUES ('fbbda7cc81811077445c4bc94c53ce08', '4f1b6666b70be892469b6e93c1eb30ce', '780a15a12d2fc981cccb418dafce08b2', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.nav_mgr.nav.editNav();', '2', null);
 INSERT INTO `t_action` VALUES ('fbfded9986f0ad39d43d789b7594463d', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'a1d130de95607ffc00fb455c749cf1a1', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.hiring_mgr.hiring.delHiring();', '3', null);
-INSERT INTO `t_action` VALUES ('sd54fsd4fsd2sg45r4hrtj2fg1j2g1', 'de34654c5e6c1e94ee70cc833asd142', 'swdf697aea23532eb8162f5ba1818c6f', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.area_mgr.area.delArea();', '3', null);
+
+-- ----------------------------
+-- Table structure for `t_action_copy`
+-- ----------------------------
+DROP TABLE IF EXISTS `t_action_copy`;
+CREATE TABLE `t_action_copy` (
+  `action_id` varchar(32) NOT NULL,
+  `menu_id` varchar(32) default NULL,
+  `panel_id` varchar(32) default NULL,
+  `action_cn_name` varchar(30) NOT NULL,
+  `action_en_name` varchar(30) NOT NULL,
+  `icon_cls` varchar(30) default NULL,
+  `type` enum('Link','Button') default 'Button',
+  `disabled` enum('disable','enable') default NULL,
+  `method` varchar(100) default NULL,
+  `order_num` int(10) unsigned default NULL,
+  `remark` varchar(50) default NULL,
+  PRIMARY KEY  (`action_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of t_action_copy
+-- ----------------------------
+INSERT INTO `t_action_copy` VALUES ('00373dc94a1610aab1a50b060bb17e88', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '分配角色', 'assign', 'icon-standard-key-go', 'Button', 'disable', 'glacier.system_mgr.user_mgr.user.roleAssign();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('01dc883fe7100411013efd59c60efe12', '055b7c1a9499420b2982a207dc027389', '17d04eebb4a66712961343c652696dbd', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.parameterBasic_mgr.parameterBasic.delParameterBasic();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('02e8e7c29c545810f77ad6714153d1e3', '185b00f80aaa910fa99d9abc99c84d58', 'ad2e8abecde386abbd1738707beccfee', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.borrow_mgr.LoanReview_mgr.LoanReview.delLoanReview();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('081b6469db43ca2d09c8c4393b838529', 'a652d3fe69c067cb94b73361351b8378', '5cd4cb6d36559b7d7e3a022e53a3bd71', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.news_mgr.news.editNews();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('0fa43c6542365762ae60ccc552a33fd9', 'a99477bf949bcae7143004e369d31d6c', 'cc479685206a45181c5965a09b72ffc5', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.finance_mgr.rechargeSet_mgr.rechargeSet.addRechargeSet();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('164cdcc07fc0588cc16bdbafe55eff07', '389f33c7b34582376d4d99282faa03b9', '8a63e66cba37b7a9f7e99ff684791264', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.borrow_mgr.repaymentType_mgr.repaymentType.editRepaymentType();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('18060139f0e736a796d5ac4bdd78eadc', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.role_mgr.role.editRole();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('18060139f0e736a796d5ac4bdd78eads', 't110147c5e6c1e94ee70cc833aa7f5d3', '21gfdg1rgrh1dfhsjdfh124564sdf21d', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.age_mgr.age.addAge();', '2', null);
+INSERT INTO `t_action_copy` VALUES ('19e69166495bc3e74f11c5cbe3bc5ce5', '88ee044d59911b3b1a67ba4cdd0ee90d', '86d2ccad701f94c9e80d71557b1c62e6', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.announcement_mgr.announcement.editAnnouncement();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('1cccbe2e088ea3848e78e2338f572675', '43b1d02267e9ed610543845a1c1a24ca', '28764ec6c61fd04f84bd20de8a96bfc8', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.overdueAdvances_mgr.overdueAdvances.auditOverdueAdvances();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('1fb7d55569a297d8c9c8df576e7aa3c6', '3d69786613fe15615172d1ae22defed4', 'f77e36ed70a04d8123a466f8dd0a9b5b', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.integralType_mgr.integralType.delIntegralType();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('2213139f0e736a796d5ac4bdd78332', 'sdeg454c5e6c1e94ee70cc833asd142', '34eg454c5e6c1e94ee70cc833asd87', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.integral_mgr.integral.delIntegral();', '3', null);
+INSERT INTO `t_action_copy` VALUES ('2353539f0e736a796d5ac4bdd78eadc', 'de34654c5e6c1e94ee70cc833asd142', 'swdf697aea23532eb8162f5ba1818c6f', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.area_mgr.area.editArea();', '2', null);
+INSERT INTO `t_action_copy` VALUES ('25860139f0e736a796d5ac4bdd78147', 'v465654c5e6c1e94ee70cc833asd142', '87gfdg1rgrh1dfhsjdfh124564sderbg', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.credit_mgr.credit.addCredit();', '1', null);
+INSERT INTO `t_action_copy` VALUES ('28060139f0e736a796d5ac4bdd78dawx', 't110147c5e6c1e94ee70cc833aa7f5d3', '21gfdg1rgrh1dfhsjdfh124564sdf21d', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.age_mgr.age.editAge();', '3', null);
+INSERT INTO `t_action_copy` VALUES ('2847af4d9e73cd7a4c1a5b1933cac4c0', '33f5e9959e821a58696e2d2fb5c322fc', '98954ee69de34d2515468cbc031376ec', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.question_mgr.question.addQuestion();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('28909d485e495c2c137aca2d669645d3', '54d652799e07bb8be54483301a89ff90', '28fe18d693742ae7db094fc750715c46', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.help_mgr.help.addHelp();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('2c3f7432c92f50ae582efd60424c025f', '054464fdb73c76b5cfd4efa16fcaa8e1', 'a6776188d6b27af2659a71f77ff71e02', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.creditType_mgr.creditType.addCreditType();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('2d3cba66f556c98c52a47e4636da3e17', '5b6eaabb2c3a020c4d85ab50d11ffd85', '20814591aaa67351ab28198ec8531c80', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.link_mgr.link.editLink();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('32740020a8816f83b38564a64eee4278', 'e42b98561176563f930d82c80b041ed8', 'f769a64bb571aa0c7ac269b807af4782', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.system_mgr.loginlog_mgr.loginlog.delLoginlog();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('34560139f0e736a796d5ac4bdd78344', 'sdeg454c5e6c1e94ee70cc833asd142', '34eg454c5e6c1e94ee70cc833asd87', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.integral_mgr.integral.addIntegral();', '1', null);
+INSERT INTO `t_action_copy` VALUES ('35860139f0e736a796d5ac4bdd78147', 'v465654c5e6c1e94ee70cc833asd142', '87gfdg1rgrh1dfhsjdfh124564sderbg', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.credit_mgr.credit.editCredit();', '2', null);
+INSERT INTO `t_action_copy` VALUES ('38060139f0e736a796d5ac4bdd78escs', 't110147c5e6c1e94ee70cc833aa7f5d3', '21gfdg1rgrh1dfhsjdfh124564sdf21d', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.age_mgr.age.delAge();', '4', null);
+INSERT INTO `t_action_copy` VALUES ('3a879058f46d34f021a3fb58dbbc0219', 'c5d4cae04f14f76eae54c0da51819af0', '92e73869674d4c3f6b0c9e904bf03edf', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.withdrawSet_mgr.withdrawSet.editwithdrawSet();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('3ceb75f4b0d0565546cd24d1dc7b3140', '43b1d02267e9ed610543845a1c1a24ca', '28764ec6c61fd04f84bd20de8a96bfc8', '新增', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.finance_mgr.overdueAdvances_mgr.overdueAdvances.addOverdueAdvances();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('429f54b614db46af58598c8d9a47a36f', '54eb754157cf483a790f4eea35200118', '961d2e73b3fa93a9f125fb731e0a9529', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.delPanel();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('43286edc2a67d2cc48258ed3445fcb7c', '3d69786613fe15615172d1ae22defed4', 'f77e36ed70a04d8123a466f8dd0a9b5b', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.integralType_mgr.integralType.addIntegralType();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('4353539f0e736a796d5ac4bdd78eadc', 'de34654c5e6c1e94ee70cc833asd142', 'swdf697aea23532eb8162f5ba1818c6f', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.area_mgr.area.addArea();', '1', null);
+INSERT INTO `t_action_copy` VALUES ('4586054157cf483a790f4eea35dsf6f6', 'v465654c5e6c1e94ee70cc833asd142', '87gfdg1rgrh1dfhsjdfh124564sderbg', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.credit_mgr.credit.delCredit();', '3', null);
+INSERT INTO `t_action_copy` VALUES ('47825847f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '3456eg4157cf483a790f4eea35ds5675', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.editOptgroupValue();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('48f761b33f08cc3403e0ee74ff68b960', '10a7f2fd8253d90b8672d4096f8f9ed4', '3454dcbd02994a182203bf0f99bc4a63', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.borrow_mgr.loanTender_mgr.loanTender.addLoanTender();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('4935ba0942f42d408c8205e92d7266d9', 'e75a41ba4a2bc299e3b50a15580a103b', '93fc21dd1e7d69dd439c77c9e94e25af', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.service_mgr.service.addService();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('4bde011f88760fd616c223d118eab841', '4f1b6666b70be892469b6e93c1eb30ce', '780a15a12d2fc981cccb418dafce08b2', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.nav_mgr.nav.addNav();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('4c81203b3b78f009a00b76f4b5c2f1c6', '703a3f819925f89a9c370c0324d784a0', 'b10c70408381896f937bfe688daf8c25', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.member_mgr.messageNotice_mgr.messageNotice.editMessageNotice();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('5145b54dcf298e8acc62618c50ae9658', '3a0891f27514a093a5869da2afc22268', 'd758d23f2be619905b89146a228c3336', '导出Excel', 'exp', 'icon-standard-note-go', 'Button', 'enable', 'glacier.account_mgr.accountBorrow_mgr.accountBorrow.expAccountBorrow();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('5358a74c967ccb2e7f8e19ada4b56dc5', '2a93efe5aeae3cdef871447bd49134a0', '64e21bca11e8269cf68163ca490145d7', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.financePlatform_mgr.financePlatform.editFinancePlatform();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('53c1484ea13b45e89165b1f324cb4c87', 'f15eee7156a6e9821ad60ea9747b6878', '22bb4909b6184fadfdb5bc5566a911ae', '审核', 'audit', 'icon-cologne-customers', 'Button', 'enable', 'glacier.member_mgr.estate_mgr.estate.auditHiring();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('56890139f0e736a796d5ac4bdd78211', 'sdeg454c5e6c1e94ee70cc833asd142', '34eg454c5e6c1e94ee70cc833asd87', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.integral_mgr.integral.editIntegral();', '2', null);
+INSERT INTO `t_action_copy` VALUES ('5825847f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '3456eg4157cf483a790f4eea35ds5675', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.delOptgroupValue();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('58660bccb69289b1f0299d9a664931d3', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.system_mgr.user_mgr.user.editUser();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('58c66ce489e1ee8588e881a1abe9de56', '93f0fcfa7cdff069d929723062b53211', 'e6784ccad10e3414b99b77b303a338c7', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.variables_mgr.variables.editVariables();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('5a4171d71d37ecd90cad18fb915b514b', 'e75a41ba4a2bc299e3b50a15580a103b', '93fc21dd1e7d69dd439c77c9e94e25af', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.service_mgr.service.editService();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('5b5621bc4bc8226055d59cbf5c7852b2', 'e46f33cd486fe42c714c909e32966b4c', 'c17d966fcbec924f28c742456684aad4', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.overdueFineSet_mgr.overdueFineSet.editOverdueFineSet();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('5c2965033bb62ab747c3d1c74adb72c8', '5b6eaabb2c3a020c4d85ab50d11ffd85', '20814591aaa67351ab28198ec8531c80', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.link_mgr.link.delLink();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('5c630948779113b05eba2bee11430518', 'b34761b59816e63743643c6f179683a4', 'b8a03efe50a44d460983badb4be96eea', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.advertisement_mgr.advertisement.editAdvertisement();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('5db796929f23e991708fd0af99b3b4bc', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.role_mgr.role.addRole();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('5ec88454af4be3068ddb590c76edd72b', '9dc3357651c9ecbb9b7c51005be28d18', '5a5b45f5c22bb597247bf1ba380f8968', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.member_mgr.secretSecurity_mgr.secretSecurity.delSecretSecurity();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('5f1a9114c558b14be5870f6970cc7232', 'c5d4cae04f14f76eae54c0da51819af0', '92e73869674d4c3f6b0c9e904bf03edf', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.finance_mgr.withdrawSet_mgr.withdrawSet.addwithdrawSet();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('603c90108811ef9e8bb9c9639cc5c027', 'a99477bf949bcae7143004e369d31d6c', 'cc479685206a45181c5965a09b72ffc5', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.finance_mgr.rechargeSet_mgr.rechargeSet.delRechargeSet();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('61456d3d7696bfe35938d1e14b38a9f6', '2a93efe5aeae3cdef871447bd49134a0', '64e21bca11e8269cf68163ca490145d7', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.financePlatform_mgr.financePlatform.auditFinancePlatform();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('6838d18fa1e582d4dc28404a80445c88', '54eb754157cf483a790f4eea35200118', '5731697aea23532eb8162f5ba1818c6f', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.res_mgr.res.addMenu();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('6c0bc1e009b3742af24d7bdc94adec3c', '54eb754157cf483a790f4eea35200118', '961d2e73b3fa93a9f125fb731e0a9529', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.res_mgr.res.addPanel();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('6e1027dd7e57195d06dd2fac811f8ebf', '54eb754157cf483a790f4eea35200118', '5731697aea23532eb8162f5ba1818c6f', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.editMenu();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('6e2f6c1b5c542cb289cdadb07c9164b9', '33f5e9959e821a58696e2d2fb5c322fc', '98954ee69de34d2515468cbc031376ec', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.question_mgr.question.delQuestion();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('6ebb0c66afb41e8cf0d890ea46ab54ca', 'ac892df07f9087fb1c89ac968bb5f555', '557cf8b2740e6792f517138703afb407', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.system_mgr.operalog_mgr.operalog.delOperalog();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('7264da6cb6fbe51c0731119ff4865695', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'a1d130de95607ffc00fb455c749cf1a1', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.hiring_mgr.hiring.addHiring();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('745f2c5fbd9ff0393b422d69ec411b6a', 'a99477bf949bcae7143004e369d31d6c', 'cc479685206a45181c5965a09b72ffc5', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.rechargeSet_mgr.rechargeSet.editRechargeSet();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('762515461de7429f5b008585301cdf48', 'a652d3fe69c067cb94b73361351b8378', '5cd4cb6d36559b7d7e3a022e53a3bd71', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.news_mgr.news.addNews();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('7b77c2b0294c356ed5447a3857b02fcd', '43b1d02267e9ed610543845a1c1a24ca', '28764ec6c61fd04f84bd20de8a96bfc8', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.overdueAdvances_mgr.overdueAdvances.editOverdueAdvances();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('7caffce8ea39108e446907222540bdba', '9171c71b4bab5578ef0bbeac30072c73', 'a466d90682f5e1b36f0d1813c2d9c844', '导出Excel', 'exp', 'icon-standard-note-go', 'Button', 'enable', 'glacier.member_mgr.statistics_mgr.statistics.expStatistics();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('7e5859ec7d629ee40e81ebed04c4b097', '2a93efe5aeae3cdef871447bd49134a0', '64e21bca11e8269cf68163ca490145d7', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.finance_mgr.financePlatform_mgr.financePlatform.delFinancePlatform();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('7fd16b2771ba4b31024e586eb3ca6e6b', '54d652799e07bb8be54483301a89ff90', '28fe18d693742ae7db094fc750715c46', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.help_mgr.help.delHelp();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('83da88e1222fd62309915a2ccee9bd52', '054464fdb73c76b5cfd4efa16fcaa8e1', 'a6776188d6b27af2659a71f77ff71e02', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.creditType_mgr.creditType.editCreditType();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('84ed9df00a0bcb687170e6a09767b4d2', '703a3f819925f89a9c370c0324d784a0', 'b10c70408381896f937bfe688daf8c25', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.member_mgr.messageNotice_mgr.messageNotice.addMessageNotice();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('84fd30c2b03282a32dd9e0d552130442', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.user_mgr.user.addUser();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('8530139f0e736a796d5ac4bdd78eadc', 'sdsfeg4157cf483a790f4eea35ds5675', '4546fgrgrh1dfhsjdfh124564sdf2sag', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.addOptgroup();', '1', null);
+INSERT INTO `t_action_copy` VALUES ('8537147f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '4546fgrgrh1dfhsjdfh124564sdf2sag', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.delOptgroup();', '3', null);
+INSERT INTO `t_action_copy` VALUES ('8537899f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '4546fgrgrh1dfhsjdfh124564sdf2sag', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.editOptgroup();', '2', null);
+INSERT INTO `t_action_copy` VALUES ('872c6894ca5e4af50944628948f7cf8b', 'c5d4cae04f14f76eae54c0da51819af0', '92e73869674d4c3f6b0c9e904bf03edf', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.withdrawSet_mgr.withdrawSet.auditwithdrawSet();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('8d107485b9e1aefcd257e0b97fb38023', '4f1b6666b70be892469b6e93c1eb30ce', '780a15a12d2fc981cccb418dafce08b2', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.nav_mgr.nav.delNav();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('8dd9d2808e9363daf78642bcb64bfa7e', '4c654b11b08eecbf6eb4e6688ea83b7d', 'fc5113080081ca9c40d5fc0a7b66da8b', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.member_mgr.member_mgr.member.editMember();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('8eb3b50d119f05c30127c3359e4a5d2a', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.role_mgr.role.delRole();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('9320f5b0199abd8d53990eef7cdcd745', '54eb754157cf483a790f4eea35200118', 'eb2a84c4b7bd11632135e4992ade286e', '编辑', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.editAction();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('96325847f0e736a796d5ac4bdd78e123', 'sdsfeg4157cf483a790f4eea35ds5675', '3456eg4157cf483a790f4eea35ds5675', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.optgroup_mgr.optgroup.addOptgroupValue();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('9b230bb84a2df248ad7a4d506d06f28c', 'b34761b59816e63743643c6f179683a4', 'b8a03efe50a44d460983badb4be96eea', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.advertisement_mgr.advertisement.delAdvertisement();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('9bd85330248f3e9a3839fc7fb22e7989', '5db451044c71b4eb5448a4291d538241', '6e8859d95d4d4874c378f80f642740df', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.bankCard_mgr.bankCard.auditBankCard();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('9c975e58b77030f3eaa72f95ab34f786', 'ae024ce004991607d5ae9e725d67cce8', '7b6390143d9a9c234890391f475ef7c9', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.member_mgr.applyAmount_mgr.applyAmount.auditApplyAmount();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('9cdc7b08f06304c42f1e6c408f170fcb', '93f0fcfa7cdff069d929723062b53211', 'e6784ccad10e3414b99b77b303a338c7', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.variables_mgr.variables.addVariables();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('9e797156c229191ab00bb4b0476ce3e3', '765726125327148f709cb1b98e8e2fb8', '961af6c94e64222b875d5a0546b8675b', '导出Excel', 'exp', 'icon-standard-folder-go', 'Button', 'enable', 'glacier.account_mgr.accountTender_mgr.accountTender.expAccountTender();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('9f2bde7246ca2ad13dc64bbc5f4efb3d', '91ca1b4b197688f21b68a72f69e09a8d', '37011217016636a0723462dbc81bf887', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.system_mgr.user_mgr.user.delUser();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('9f9e45b7c4cd5416067357793231eb85', '8b442566ffbc9531ee5e3aef7c41d740', '0ff45a0906e1ec4b169953b2c177db3e', '审核', 'auth', 'icon-standard-attach', 'Button', 'enable', 'glacier.member_mgr.memberAuth_mgr.memberAuth.authMemberAuth();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('a04ae9ab4aeffa6fbffbae0f3630aa64', '4c654b11b08eecbf6eb4e6688ea83b7d', 'fc5113080081ca9c40d5fc0a7b66da8b', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.member_mgr.member_mgr.member.addMember();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('a27471575ce1f86d15e43a163b2195dd', '5b6eaabb2c3a020c4d85ab50d11ffd85', '20814591aaa67351ab28198ec8531c80', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.link_mgr.link.addLink();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('a34eddbd653c462a87afe23eab0c6391', 'b34761b59816e63743643c6f179683a4', 'b8a03efe50a44d460983badb4be96eea', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.advertisement_mgr.advertisement.addAdvertisement();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('a6e49ea671cecee4c618785aa5eff06b', 'e46f33cd486fe42c714c909e32966b4c', 'c17d966fcbec924f28c742456684aad4', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.overdueFineSet_mgr.overdueFineSet.auditOverdueFineSet();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('a8167ddeb588a6b88b81c81fbf1504a9', '3d69786613fe15615172d1ae22defed4', 'f77e36ed70a04d8123a466f8dd0a9b5b', ' 修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.integralType_mgr.integralType.editIntegralType();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('aa1a5a2270461de1688af30e776f2da1', '055b7c1a9499420b2982a207dc027389', '17d04eebb4a66712961343c652696dbd', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.basicdatas_mgr.parameterBasic_mgr.parameterBasic.addParameterBasic();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('aa92fc184111c854d2c88774e4d941c4', 'a99477bf949bcae7143004e369d31d6c', 'cc479685206a45181c5965a09b72ffc5', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.rechargeSet_mgr.rechargeSet.auditRechargeSet();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('abaa0bc85e3c239161d04abe65acdac4', 'd1f203ea6815e227579b88c5d6235629', 'a143b131cf265bb53467012fd788ed66', '导出Excel', 'exp', 'icon-standard-folder-go', 'Button', 'enable', 'glacier.account_mgr.accountInvest_mgr.accountInvest.expAccountInvest();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('ad2388e634c5e313d1c71eecdc849cb6', '88ee044d59911b3b1a67ba4cdd0ee90d', '86d2ccad701f94c9e80d71557b1c62e6', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.announcement_mgr.announcement.delAnnouncement();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('ae83596beea547d81692aa19ed036b84', '43b1d02267e9ed610543845a1c1a24ca', '28764ec6c61fd04f84bd20de8a96bfc8', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.finance_mgr.overdueAdvances_mgr.overdueAdvances.delOverdueAdvances();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('aea7efcb8741c644ca693486220fe031', '10a7f2fd8253d90b8672d4096f8f9ed4', '3454dcbd02994a182203bf0f99bc4a63', '分配还款方式', 'assign', 'icon-standard-key-go', 'Button', 'enable', 'glacier.borrow_mgr.loanTender_mgr.loanTender.assignRepayment();', '4', '');
+INSERT INTO `t_action_copy` VALUES ('afa46628496d4d07c56a03e83a0094d0', 'c5cbf9f0961aa8249322d9ac20ba996e', 'f02605440920e2e2f7ed260f81674410', '初审', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.borrow_mgr.borrowingLoan_mgr.borrowingLoanFirstAudit.auditBorrowingLoanFirstAudit();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('b0648b51ebbf9831702a3f616a75ca3a', 'a652d3fe69c067cb94b73361351b8378', '5cd4cb6d36559b7d7e3a022e53a3bd71', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.news_mgr.news.delNews();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('b0f605139653554aa66cf38a78fe42ba', '54eb754157cf483a790f4eea35200118', 'eb07f8ec54989seb66e4e8a1a0f21604', '列表', 'list', '', 'Button', 'disable', '', '1', '');
+INSERT INTO `t_action_copy` VALUES ('b140fe41933ae262393262348962f50e', 'e46f33cd486fe42c714c909e32966b4c', 'c17d966fcbec924f28c742456684aad4', '添加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.finance_mgr.overdueFineSet_mgr.overdueFineSet.addOverdueFineSet();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('b5852fac0798a25a13b87e8532c60440', '54eb754157cf483a790f4eea35200118', '5731697aea23532eb8162f5ba1818c6f', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.delMenu();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('b7e88da8c1dec3668ca66340dabee03f', 'e550884c5e6c1e94ee70cc833aa1c2b9', '83bbeed02a85549ae84cde8d98bcd8c1', '授权', 'auth', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.role_mgr.role.actionAuth();', '4', null);
+INSERT INTO `t_action_copy` VALUES ('b96deb25d78cfa1c64305a4e4323a882', 'c5d4cae04f14f76eae54c0da51819af0', '92e73869674d4c3f6b0c9e904bf03edf', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.finance_mgr.withdrawSet_mgr.withdrawSet.delwithdrawSet();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('ba99418ca949feedcedfa04396235827', 'e75a41ba4a2bc299e3b50a15580a103b', '93fc21dd1e7d69dd439c77c9e94e25af', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.service_mgr.service.delService();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('bb182dacbb7641b9a337962406a6281f', '33f5e9959e821a58696e2d2fb5c322fc', '98954ee69de34d2515468cbc031376ec', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.question_mgr.question.editQuestion();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('bd12ba2da228817eb381868d63ff9031', '389f33c7b34582376d4d99282faa03b9', '8a63e66cba37b7a9f7e99ff684791264', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.borrow_mgr.repaymentType_mgr.repaymentType.delRepaymentType();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('be0471ff12b16ba7ef172aecd18ca4a4', '054464fdb73c76b5cfd4efa16fcaa8e1', 'a6776188d6b27af2659a71f77ff71e02', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.creditType_mgr.creditType.delCreditType();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('c1a3054399d0f62140f0389d3c0761a7', '389f33c7b34582376d4d99282faa03b9', '8a63e66cba37b7a9f7e99ff684791264', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.borrow_mgr.repaymentType_mgr.repaymentType.addRepaymentType();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('c50c979b621ff41f0677cdf02e29648b', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'a1d130de95607ffc00fb455c749cf1a1', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.hiring_mgr.hiring.editHiring();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('c84bb71923c9297ee8ba7e06207a8608', '055b7c1a9499420b2982a207dc027389', '17d04eebb4a66712961343c652696dbd', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.basicdatas_mgr.parameterBasic_mgr.parameterBasic.editParameterBasic();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('d54e5e68cc6d3310e663678a674c4193', '2a93efe5aeae3cdef871447bd49134a0', '64e21bca11e8269cf68163ca490145d7', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.finance_mgr.financePlatform_mgr.financePlatform.addFinancePlatform();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('dad8f671986722837f7eecb2b77c284b', '54eb754157cf483a790f4eea35200118', '961d2e73b3fa93a9f125fb731e0a9529', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.editPanel();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('dc73a4be22344ac72054f8e664806320', '10a7f2fd8253d90b8672d4096f8f9ed4', '3454dcbd02994a182203bf0f99bc4a63', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.borrow_mgr.loanTender_mgr.loanTender.delLoanTender();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('e07e6f29a82367df51fd80863f28503a', '5db451044c71b4eb5448a4291d538241', '6e8859d95d4d4874c378f80f642740df', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.finance_mgr.bankCard_mgr.bankCard.delBankCard();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('e1e5268cff61dc4231932ae1484caf97', '93f0fcfa7cdff069d929723062b53211', 'e6784ccad10e3414b99b77b303a338c7', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.variables_mgr.variables.delVariables();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('e32722bcb1b49ff2ed7ce3029200fe80', '31a605c2a2a777c738a09103b9915615', '8e6e60bd7b85314ab9555e64bc6e5d08', '复审', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.borrow_mgr.borrowingLoan_mgr.borrowingLoanSecAudit.auditBorrowingLoanSecAudit();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('e450b55ffaeca413fdd6551591993893', '88ee044d59911b3b1a67ba4cdd0ee90d', '86d2ccad701f94c9e80d71557b1c62e6', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.website_mgr.announcement_mgr.announcement.addAnnouncement();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('e550884c5e6c1e94a970cc833aa1c2b9', '54eb754157cf483a790f4eea35200118', 'eb2a84c4b7bd11632135e4992ade286e', '增加', 'add', 'icon-standard-pencil-add', 'Button', 'enable', 'glacier.system_mgr.res_mgr.res.addAction();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('e637975493d65070499ebfb8b15b37f6', '54d652799e07bb8be54483301a89ff90', '28fe18d693742ae7db094fc750715c46', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.help_mgr.help.editHelp();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('e6dc58cf519c048b4674a4581054d237', '703a3f819925f89a9c370c0324d784a0', 'b10c70408381896f937bfe688daf8c25', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.member_mgr.messageNotice_mgr.messageNotice.delMessageNotice();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('ec40a2a3a246442c53a3554cdae59cbb', 'e46f33cd486fe42c714c909e32966b4c', 'c17d966fcbec924f28c742456684aad4', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.finance_mgr.overdueFineSet_mgr.overdueFineSet.delOverdueFineSet();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('ed9331339d87314589ce7e19de4dab86', '8b4c5afb8d66b21e8900822c5c6bff35', '56a81ee56b6ed438bbc43d17b2e4b96e', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.recharge_mgr.recharge.auditRecharge();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('f4b5eca05e616d411f1aeef044346664', '54eb754157cf483a790f4eea35200118', 'eb2a84c4b7bd11632135e4992ade286e', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'disable', 'glacier.system_mgr.res_mgr.res.delAction();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('fbbda7cc81811077445c4bc94c53ce08', '4f1b6666b70be892469b6e93c1eb30ce', '780a15a12d2fc981cccb418dafce08b2', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.website_mgr.nav_mgr.nav.editNav();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('fbfded9986f0ad39d43d789b7594463d', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'a1d130de95607ffc00fb455c749cf1a1', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.website_mgr.hiring_mgr.hiring.delHiring();', '3', '');
+INSERT INTO `t_action_copy` VALUES ('fc1dd61babab45fb3942b311dda6a501', '3f029e72ef13db56e8b65866984da722', 'bcc05279c70cd8a320ad70bd7cd0b12d', '审核', 'audit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.finance_mgr.withdraw_mgr.withdraw.auditWithdraw();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('fdd2966ba48e34c5e5ad8dc6d8964f8b', '10a7f2fd8253d90b8672d4096f8f9ed4', '3454dcbd02994a182203bf0f99bc4a63', '修改', 'edit', 'icon-standard-pencil-go', 'Button', 'enable', 'glacier.borrow_mgr.loanTender_mgr.loanTender.editLoanTender();', '2', '');
+INSERT INTO `t_action_copy` VALUES ('fe2471a42fc0e7d61343f4e53c8eb429', '51af37d8918504c4ba34a85b1a3d94fc', '7568bd9e76ee7bfa7ac7e2ef470cce78', '导出Excel', 'exp', 'icon-standard-folder-go', 'Button', 'enable', 'glacier.account_mgr.accountLogin_mgr.accountLogin.expAccountLogin();', '1', '');
+INSERT INTO `t_action_copy` VALUES ('fef8bd050155337259ac615a077be166', '2a93efe5aeae3cdef871447bd49134a0', '64e21bca11e8269cf68163ca490145d7', '设置为默认账户', 'update', 'icon-hamburg-config', 'Button', 'enable', 'glacier.finance_mgr.financePlatform_mgr.financePlatform.editnancePlatformType();', '5', '');
+INSERT INTO `t_action_copy` VALUES ('sd54fsd4fsd2sg45r4hrtj2fg1j2g1', 'de34654c5e6c1e94ee70cc833asd142', 'swdf697aea23532eb8162f5ba1818c6f', '删除', 'del', 'icon-standard-pencil-delete', 'Button', 'enable', 'glacier.basicdatas_mgr.area_mgr.area.delArea();', '3', null);
 
 -- ----------------------------
 -- Table structure for `t_authority`
@@ -134,65 +255,24 @@ CREATE TABLE `t_authority` (
 -- ----------------------------
 -- Records of t_authority
 -- ----------------------------
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '054464fdb73c76b5cfd4efa16fcaa8e1', 'CreditTypeList_edit');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '14sdf54157cf483a790f4eea35dsf6f6', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '16ac1df11de350c61722dc7b98cecca7', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '33f5e9959e821a58696e2d2fb5c322fc', 'QuestionList_add,QuestionList_edit');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '3d69786613fe15615172d1ae22defed4', 'integralTypeList_edit');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '4c654b11b08eecbf6eb4e6688ea83b7d', 'MemberList_edit');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '54d652799e07bb8be54483301a89ff90', 'HelpList_add,HelpList_edit,HelpList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '5b6eaabb2c3a020c4d85ab50d11ffd85', 'LinkList_add,LinkList_edit,LinkList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '703a3f819925f89a9c370c0324d784a0', 'MessageNoticeList_add,MessageNoticeList_edit,MessageNoticeList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '88ee044d59911b3b1a67ba4cdd0ee90d', 'AnnouncementList_add,AnnouncementList_edit,AnnouncementList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '8b442566ffbc9531ee5e3aef7c41d740', 'MemberAuthList_auth');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '91ca1b4b197688f21b68a72f69e09a8d', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '93f6161c579a1df53d49eb2655d29645', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', '9dc3357651c9ecbb9b7c51005be28d18', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'a60cca184eff20fdce88b3f1ab5a9cce', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'a652d3fe69c067cb94b73361351b8378', 'NewsList_add,NewsList_edit,NewsList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'HiringList_add,HiringList_edit,HiringList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'ac892df07f9087fb1c89ac968bb5f555', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'b34761b59816e63743643c6f179683a4', 'AdvertisementList_add,AdvertisementList_edit,AdvertisementList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'e42b98561176563f930d82c80b041ed8', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'e4d2578abb2e36eb4aea5fa8caed2a51', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'e550884c5e6c1e94ee70cc833aa1c2b9', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'e75a41ba4a2bc299e3b50a15580a103b', 'ServiceList_add,ServiceList_edit,ServiceList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'fefe8e9ee335dadbace082923415e023', null);
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'sdeg454c5e6c1e94ee70cc833asd142', 'IntegralList_edit');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 't110147c5e6c1e94ee70cc833aa7f5d3', 'AgeList_add,AgeList_edit,AgeList_del');
-INSERT INTO `t_authority` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'v465654c5e6c1e94ee70cc833asd142', 'CreditList_edit');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '054464fdb73c76b5cfd4efa16fcaa8e1', 'CreditTypeList_add,CreditTypeList_edit,CreditTypeList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '14sdf54157cf483a790f4eea35dsf6f6', null);
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '16ac1df11de350c61722dc7b98cecca7', null);
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '33f5e9959e821a58696e2d2fb5c322fc', 'QuestionList_add,QuestionList_edit,QuestionList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '3d69786613fe15615172d1ae22defed4', 'integralTypeList_add,integralTypeList_edit,integralTypeList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '4c654b11b08eecbf6eb4e6688ea83b7d', 'MemberList_edit');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '4f1b6666b70be892469b6e93c1eb30ce', 'NavTree_add,NavTree_edit,NavTree_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '54d652799e07bb8be54483301a89ff90', 'HelpList_add,HelpList_edit,HelpList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '54eb754157cf483a790f4eea35200118', 'ActionList_add,ActionList_edit,ActionList_del,PanelList_add,PanelList_edit,PanelList_del,MenuTree_add,MenuTree_edit,MenuTree_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '5b6eaabb2c3a020c4d85ab50d11ffd85', 'LinkList_add,LinkList_edit,LinkList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '703a3f819925f89a9c370c0324d784a0', 'MessageNoticeList_add,MessageNoticeList_edit,MessageNoticeList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '88ee044d59911b3b1a67ba4cdd0ee90d', 'AnnouncementList_add,AnnouncementList_edit,AnnouncementList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '8b442566ffbc9531ee5e3aef7c41d740', 'MemberAuthList_auth');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '91ca1b4b197688f21b68a72f69e09a8d', 'UserList_add,UserList_edit,UserList_del,UserList_assign');
+INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '91ca1b4b197688f21b68a72f69e09a8d', 'UserList_add,UserList_edit,UserList_assign');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '93f0fcfa7cdff069d929723062b53211', 'VariablesList_add,VariablesList_edit,VariablesList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '93f6161c579a1df53d49eb2655d29645', null);
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', '9dc3357651c9ecbb9b7c51005be28d18', 'secretSecurityList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'a60cca184eff20fdce88b3f1ab5a9cce', null);
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'a652d3fe69c067cb94b73361351b8378', 'NewsList_add,NewsList_edit,NewsList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'ab01dd2ac38d920f691bbc65b7a4bfb2', 'HiringList_add,HiringList_edit,HiringList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'ac892df07f9087fb1c89ac968bb5f555', 'OperalogList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'b34761b59816e63743643c6f179683a4', 'AdvertisementList_add,AdvertisementList_edit,AdvertisementList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'de34654c5e6c1e94ee70cc833asd142', 'AreaTree_add,AreaTree_edit,AreaTree_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'e42b98561176563f930d82c80b041ed8', 'LoginlogList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'e4d2578abb2e36eb4aea5fa8caed2a51', null);
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'e550884c5e6c1e94ee70cc833aa1c2b9', 'RoleList_add,RoleList_edit,RoleList_del,RoleList_auth');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'e75a41ba4a2bc299e3b50a15580a103b', 'ServiceList_add,ServiceList_edit,ServiceList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'fefe8e9ee335dadbace082923415e023', null);
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'sdeg454c5e6c1e94ee70cc833asd142', 'IntegralList_add,IntegralList_edit,IntegralList_del');
 INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'sdsfeg4157cf483a790f4eea35ds5675', 'OptgroupValueList_add,OptgroupValueList_edit,OptgroupValueList_del,OptgroupTree_add,OptgroupTree_edit,OptgroupTree_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 't110147c5e6c1e94ee70cc833aa7f5d3', 'AgeList_add,AgeList_edit,AgeList_del');
-INSERT INTO `t_authority` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'v465654c5e6c1e94ee70cc833asd142', 'CreditList_add,CreditList_edit,CreditList_del');
 
 -- ----------------------------
 -- Table structure for `t_credit_integral`
@@ -561,38 +641,24 @@ CREATE TABLE `t_menu` (
 -- ----------------------------
 -- Records of t_menu
 -- ----------------------------
-INSERT INTO `t_menu` VALUES ('054464fdb73c76b5cfd4efa16fcaa8e1', '14sdf54157cf483a790f4eea35dsf6f6', 'creditType', '信用类别', 'icon-standard-award-star-silver-1', '/do/creditType/index.htm', '5', '');
 INSERT INTO `t_menu` VALUES ('14sdf54157cf483a790f4eea35dsf6f6', null, 'basicdatas', '参数管理', 'icon-standard-application-xp-terminal', '', '2', '');
 INSERT INTO `t_menu` VALUES ('16ac1df11de350c61722dc7b98cecca7', null, 'system', '系统设置', 'icon-standard-cog', '', '1', '');
-INSERT INTO `t_menu` VALUES ('33f5e9959e821a58696e2d2fb5c322fc', '14sdf54157cf483a790f4eea35dsf6f6', 'question', '密保问题', 'icon-standard-lock-delete', '/do/question/index.htm', '9', '');
-INSERT INTO `t_menu` VALUES ('3d69786613fe15615172d1ae22defed4', '14sdf54157cf483a790f4eea35dsf6f6', 'integralType', '积分类别', 'icon-standard-coins', '/do/integralType/index.htm', '7', '');
-INSERT INTO `t_menu` VALUES ('4c654b11b08eecbf6eb4e6688ea83b7d', 'fefe8e9ee335dadbace082923415e023', 'member', '会员信息', 'icon-standard-user', '/do/member/index.htm', '1', '');
 INSERT INTO `t_menu` VALUES ('4f1b6666b70be892469b6e93c1eb30ce', 'a60cca184eff20fdce88b3f1ab5a9cce', 'nav', '导航信息', 'icon-hamburg-category', '/do/nav/index.htm', '1', '');
 INSERT INTO `t_menu` VALUES ('54d652799e07bb8be54483301a89ff90', 'a60cca184eff20fdce88b3f1ab5a9cce', 'help', '帮助中心', 'icon-hamburg-config', '/do/help/index.htm', '7', '');
 INSERT INTO `t_menu` VALUES ('54eb754157cf483a790f4eea35200118', '16ac1df11de350c61722dc7b98cecca7', 'res', '资源管理', 'icon-cologne-featured', '/do/res/index.htm', '3', '');
 INSERT INTO `t_menu` VALUES ('5b6eaabb2c3a020c4d85ab50d11ffd85', 'a60cca184eff20fdce88b3f1ab5a9cce', 'link', '友情链接', 'icon-hamburg-link', '/do/link/index.htm', '5', '');
-INSERT INTO `t_menu` VALUES ('703a3f819925f89a9c370c0324d784a0', 'fefe8e9ee335dadbace082923415e023', 'messageNotice', '信息通知', 'icon-standard-comment', '/do/messageNotice/index.htm', '7', '');
 INSERT INTO `t_menu` VALUES ('88ee044d59911b3b1a67ba4cdd0ee90d', 'a60cca184eff20fdce88b3f1ab5a9cce', 'announcement', '公告管理', 'icon-hamburg-pencil', '/do/announcement/index.htm', '2', '');
-INSERT INTO `t_menu` VALUES ('8b442566ffbc9531ee5e3aef7c41d740', 'fefe8e9ee335dadbace082923415e023', 'memberAuth', '会员认证', 'icon-standard-bell', '/do/memberAuth/index.htm', '6', '');
 INSERT INTO `t_menu` VALUES ('91ca1b4b197688f21b68a72f69e09a8d', '16ac1df11de350c61722dc7b98cecca7', 'user', '管理员设置', 'icon-hamburg-hire-me', '/do/user/index.htm', '1', '');
 INSERT INTO `t_menu` VALUES ('93f0fcfa7cdff069d929723062b53211', '14sdf54157cf483a790f4eea35dsf6f6', 'variables', '系统变量', 'icon-standard-layout-content', '/do/variables/index.htm', '2', '');
-INSERT INTO `t_menu` VALUES ('93f6161c579a1df53d49eb2655d29645', 'fefe8e9ee335dadbace082923415e023', 'creditIntegral', '信用记录', 'icon-hamburg-issue', '/do/creditIntegral/index.htm', '5', '');
-INSERT INTO `t_menu` VALUES ('9dc3357651c9ecbb9b7c51005be28d18', 'fefe8e9ee335dadbace082923415e023', 'secretSecurity', '密保管理', 'icon-standard-application-key', '/do/secretSecurity/index.htm', '8', '');
 INSERT INTO `t_menu` VALUES ('a60cca184eff20fdce88b3f1ab5a9cce', null, 'website', '网站管理', 'icon-hamburg-world', '', '7', '');
 INSERT INTO `t_menu` VALUES ('a652d3fe69c067cb94b73361351b8378', 'a60cca184eff20fdce88b3f1ab5a9cce', 'news', '新闻管理', 'icon-standard-monitor', '/do/news/index.htm', '4', '');
 INSERT INTO `t_menu` VALUES ('ab01dd2ac38d920f691bbc65b7a4bfb2', 'a60cca184eff20fdce88b3f1ab5a9cce', 'hiring', '招聘信息', 'icon-hamburg-customers', '/do/hiring/index.htm', '8', '');
 INSERT INTO `t_menu` VALUES ('ac892df07f9087fb1c89ac968bb5f555', '16ac1df11de350c61722dc7b98cecca7', 'operalog', '操作日志', 'icon-standard-report-key', '/do/operalog/index.htm', '5', '');
 INSERT INTO `t_menu` VALUES ('b34761b59816e63743643c6f179683a4', 'a60cca184eff20fdce88b3f1ab5a9cce', 'advertisement', '广告管理', 'icon-standard-tag-orange', '/do/advertisement/index.htm', '3', '');
-INSERT INTO `t_menu` VALUES ('de34654c5e6c1e94ee70cc833asd142', '14sdf54157cf483a790f4eea35dsf6f6', 'area', '地区管理', 'icon-hamburg-product', '/do/area/index.htm', '4', '');
 INSERT INTO `t_menu` VALUES ('e42b98561176563f930d82c80b041ed8', '16ac1df11de350c61722dc7b98cecca7', 'loginlog', '登录日志', 'icon-standard-report-edit', '/do/loginlog/index.htm', '4', '');
-INSERT INTO `t_menu` VALUES ('e4d2578abb2e36eb4aea5fa8caed2a51', 'fefe8e9ee335dadbace082923415e023', 'memberIntegral', '积分记录', 'icon-standard-award-star-gold-2', '/do/memberIntegral/index.htm', '4', '');
 INSERT INTO `t_menu` VALUES ('e550884c5e6c1e94ee70cc833aa1c2b9', '16ac1df11de350c61722dc7b98cecca7', 'role', '角色管理', 'icon-hamburg-customers', '/do/role/index.htm', '2', '');
 INSERT INTO `t_menu` VALUES ('e75a41ba4a2bc299e3b50a15580a103b', 'a60cca184eff20fdce88b3f1ab5a9cce', 'service', '客服服务', 'icon-cologne-customers', '/do/service/index.htm', '6', '');
-INSERT INTO `t_menu` VALUES ('fefe8e9ee335dadbace082923415e023', null, 'member_mgr', '会员管理', 'icon-standard-group', '', '3', '');
-INSERT INTO `t_menu` VALUES ('sdeg454c5e6c1e94ee70cc833asd142', '14sdf54157cf483a790f4eea35dsf6f6', 'integral', '会员积分', 'icon-hamburg-special', '/do/integral/index.htm', '8', '');
 INSERT INTO `t_menu` VALUES ('sdsfeg4157cf483a790f4eea35ds5675', '14sdf54157cf483a790f4eea35dsf6f6', 'optgroup', '下拉项管理', 'icon-hamburg-sitemap', '/do/optgroup/index.htm', '3', '');
-INSERT INTO `t_menu` VALUES ('t110147c5e6c1e94ee70cc833aa7f5d3', '14sdf54157cf483a790f4eea35dsf6f6', 'age', '年龄别称', 'icon-standard-pencil', '/do/age/index.htm', '10', '');
-INSERT INTO `t_menu` VALUES ('v465654c5e6c1e94ee70cc833asd142', '14sdf54157cf483a790f4eea35dsf6f6', 'credit', '会员信用', 'icon-standard-award-star-gold-3', '/do/credit/index.htm', '6', '');
 
 -- ----------------------------
 -- Table structure for `t_operalog`
@@ -616,16 +682,61 @@ CREATE TABLE `t_operalog` (
 -- ----------------------------
 -- Records of t_operalog
 -- ----------------------------
+INSERT INTO `t_operalog` VALUES ('0565fdbc21a9228ad776f45783b8bc46', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 问题列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:50:52');
+INSERT INTO `t_operalog` VALUES ('1a429213e285d18b5a201eb842f533f2', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 会员管理 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:50:10');
 INSERT INTO `t_operalog` VALUES ('1b658edb32f76ce8f1a70b0b455a5cb2', '信用类别', '信用类别列表', '修改', '1', '[啊啊] 积分类型信息已变更', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'editCreditType', 'CreditTypeList_edit', '超级管理员', '2014-08-19 10:48:51');
+INSERT INTO `t_operalog` VALUES ('201c0921839000271277f48e5027ad00', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 信用类别列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:52:14');
 INSERT INTO `t_operalog` VALUES ('2cbf66eaca4176ba0b3afc83b7cb12cb', '信用类别', '信用类别列表', '增加', '0', '积分类型重复', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'addCreditType', 'CreditTypeList_add', '超级管理员', '2014-08-19 10:47:36');
+INSERT INTO `t_operalog` VALUES ('2e21e2da08366813969d93e8ff610e2e', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 会员积分 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:51:03');
+INSERT INTO `t_operalog` VALUES ('2ff71888404ac32fbf616468ee7e7d5c', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 积分记录 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:50:06');
+INSERT INTO `t_operalog` VALUES ('33cbd91d298cfc77cbf688445a9b558c', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 会员信息 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:50:02');
+INSERT INTO `t_operalog` VALUES ('34d0e8227151542d8d4df48c31610eb1', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 会员认证 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:49:41');
+INSERT INTO `t_operalog` VALUES ('408101f9d1f398a58bc7c8fd1314dd7c', '角色管理', '角色列表', '授权', '0', '权限信息更新失败', 'com.glacier.frame.service.system.AuthorityService', 'saveRoleAuths', 'RoleList_auth', '超级管理员', '2015-01-07 17:46:24');
+INSERT INTO `t_operalog` VALUES ('4a95ec348d4ca222e232069575484d92', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 地区管理 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:52:25');
+INSERT INTO `t_operalog` VALUES ('4cb6ff9caaf60a35762da18a21479913', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 信息通知 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:49:34');
+INSERT INTO `t_operalog` VALUES ('4ecaee38b38a8ede4f131a7082b95ea4', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:49:29');
+INSERT INTO `t_operalog` VALUES ('5978ffe9502e5f44691d2f6fc6accff4', '角色管理', '角色列表', '授权', '0', '权限信息更新失败', 'com.glacier.frame.service.system.AuthorityService', 'saveRoleAuths', 'RoleList_auth', '超级管理员', '2015-01-07 17:46:31');
+INSERT INTO `t_operalog` VALUES ('599d3d572a0168187734a00f0f67b506', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:50:50');
+INSERT INTO `t_operalog` VALUES ('59f4ffd368d3c9f2bb361bff01a56241', '角色管理', '角色列表', '授权', '1', '权限信息已保存', 'com.glacier.frame.service.system.AuthorityService', 'saveRoleAuths', 'RoleList_auth', '超级管理员', '2015-01-07 17:48:36');
+INSERT INTO `t_operalog` VALUES ('5ea2c30c2a47cb510238497ab1042b9c', '角色管理', '角色列表', '授权', '0', '权限信息更新失败', 'com.glacier.frame.service.system.AuthorityService', 'saveRoleAuths', 'RoleList_auth', '超级管理员', '2015-01-07 17:46:26');
 INSERT INTO `t_operalog` VALUES ('64d1d1bffd3c73f00f5f7e0f7e9c2f4c', '信用类别', '信用类别列表', '修改', '1', '[borrow] 积分类型信息已变更', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'editCreditType', 'CreditTypeList_edit', '超级管理员', '2014-08-19 10:53:10');
+INSERT INTO `t_operalog` VALUES ('658491177372029c005f268e02a4e513', '资源管理', '操作列表', '删除', '1', '成功删除了[ 审核 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:49:37');
+INSERT INTO `t_operalog` VALUES ('6797ec7ebb2de680e24d3f47572149c5', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 密保管理 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:49:24');
+INSERT INTO `t_operalog` VALUES ('686b32c97504c703c5c6dc0aba537e3d', '角色管理', '角色列表', '删除', '0', '选中第<font style=\'color:red;font-weight: bold;\'>【1】</font>行数据与【操作管理】存在<font style=\'color:red;font-weight: bold;\'>【27】</font>条依赖关系,须先删除【操作管理】中<font style=\'color:red;font-weight: bold;\'>【27】</font>条依赖数据', 'com.glacier.frame.service.system.RoleService', 'delRoles', 'RoleList_del', '超级管理员', '2015-01-07 17:46:19');
+INSERT INTO `t_operalog` VALUES ('6d531be40ebe4d14da9d3102a060c8ec', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:50:57');
+INSERT INTO `t_operalog` VALUES ('72ec75c19faecd7b3c3af6bd70fe187c', '角色管理', '角色列表', '授权', '0', '权限信息更新失败', 'com.glacier.frame.service.system.AuthorityService', 'saveRoleAuths', 'RoleList_auth', '超级管理员', '2015-01-07 17:46:25');
+INSERT INTO `t_operalog` VALUES ('8e2e33e9a866f60692d886b5928edf61', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 会员信用 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:52:08');
+INSERT INTO `t_operalog` VALUES ('92e3d5b54fd4b816d9be18cdbf640b41', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 积分列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:51:00');
+INSERT INTO `t_operalog` VALUES ('943a7652f3805707bb1ea5ffbffadb44', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:50:39');
+INSERT INTO `t_operalog` VALUES ('95929a0708a7b1c8a8c6f8d5dbc9785c', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:52:12');
+INSERT INTO `t_operalog` VALUES ('968dda7b392b2ca9abd1d990c56213b1', '资源管理', '操作列表', '删除', '1', '成功删除了[ 删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:48:58');
+INSERT INTO `t_operalog` VALUES ('a4bc1cae1ebab3e2dae2a6bcd09a6ccd', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 密保列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:49:14');
+INSERT INTO `t_operalog` VALUES ('a6518b76cace78e5776192cff6d5b45d', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:51:18');
+INSERT INTO `t_operalog` VALUES ('a7e2b1df39f2deece545644acefd6c32', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 年龄列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:50:41');
+INSERT INTO `t_operalog` VALUES ('aa9048fb0dc1a0f06e0c3e5363443f78', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 认证列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:49:39');
 INSERT INTO `t_operalog` VALUES ('afba6ad0e3fdd6676ea00a8387b7dead', '信用类别', '信用类别列表', '增加', '1', '[啊啊] 积分类型信息已保存', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'addCreditType', 'CreditTypeList_add', '超级管理员', '2014-08-19 10:44:16');
+INSERT INTO `t_operalog` VALUES ('b0df29d92c051dcd8d34fdf6e42b0c75', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 信用记录 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:49:54');
+INSERT INTO `t_operalog` VALUES ('b4aa337acaa46dfe508db0290eb5228b', '角色管理', '角色列表', '授权', '1', '权限信息已保存', 'com.glacier.frame.service.system.AuthorityService', 'saveRoleAuths', 'RoleList_auth', '超级管理员', '2015-01-07 17:48:08');
+INSERT INTO `t_operalog` VALUES ('b9e699830c559e924ef489be102c34cf', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 信用类别 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:52:16');
+INSERT INTO `t_operalog` VALUES ('bbbfc65b5773566ff7b14626d4dbdc1e', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:51:07');
 INSERT INTO `t_operalog` VALUES ('c44089ea2605d99c930f19596778a9aa', '信用类别', '信用类别列表', '增加', '1', '[logins] 积分类型信息已保存', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'addCreditType', 'CreditTypeList_add', '超级管理员', '2014-08-19 10:47:41');
+INSERT INTO `t_operalog` VALUES ('c4e0ef9d15925be7ce4af5efbda5742c', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 信用列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:52:06');
+INSERT INTO `t_operalog` VALUES ('c65470de39d3b7fc2fd052fa5c53e467', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改,删除 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:52:20');
 INSERT INTO `t_operalog` VALUES ('c8d0fe988abe58eb865c208849e615d9', '信用类别', '信用类别列表', '修改', '1', '[invest] 积分类型信息已变更', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'editCreditType', 'CreditTypeList_edit', '超级管理员', '2014-08-19 10:53:44');
 INSERT INTO `t_operalog` VALUES ('cb19ca71bf439b1e21017b23b57a9945', '角色管理', '角色列表', '增加', '1', '[kk] 角色信息已保存', 'com.glacier.frame.service.system.RoleService', 'addRole', 'RoleList_add', '超级管理员', '2014-08-19 10:00:11');
+INSERT INTO `t_operalog` VALUES ('cb8800a55c874e0dd58699731cecdc12', '角色管理', '角色列表', '删除', '1', '已成功删除<font style=\'color:red;font-weight: bold;\'>【1】</font>条数据,', 'com.glacier.frame.service.system.RoleService', 'delRoles', 'RoleList_del', '超级管理员', '2015-01-07 17:46:15');
+INSERT INTO `t_operalog` VALUES ('d22f719740c0149542550d91bcf6392b', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 年龄别称 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:50:44');
+INSERT INTO `t_operalog` VALUES ('de69a58483b85cf77db72b8a220d96b4', '角色管理', '角色列表', '删除', '1', '已成功删除<font style=\'color:red;font-weight: bold;\'>【1】</font>条数据,', 'com.glacier.frame.service.system.RoleService', 'delRoles', 'RoleList_del', '超级管理员', '2015-01-07 17:47:48');
+INSERT INTO `t_operalog` VALUES ('dfb4a08b2ab33c52ca2f86822ee5f4aa', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 信息通知列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:49:31');
 INSERT INTO `t_operalog` VALUES ('dfdd652737dc6d1ba96097396f2b9a0a', '信用类别', '信用类别列表', '修改', '1', '[啊啊] 积分类型信息已变更', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'editCreditType', 'CreditTypeList_edit', '超级管理员', '2014-08-19 10:49:31');
+INSERT INTO `t_operalog` VALUES ('dfe7536de08fa91dd6396d6821182e11', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 积分类别列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:51:12');
+INSERT INTO `t_operalog` VALUES ('e25cb4ac38e1740eb3f5e7f6bd3b77c1', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 积分类别 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:51:14');
 INSERT INTO `t_operalog` VALUES ('e2609c0f8a634abdd9ad4f32af233408', '信用类别', '信用类别列表', '修改', '1', '[logins] 积分类型信息已变更', 'com.glacier.frame.service.basicdatas.ParameterIntegralTypeService', 'editCreditType', 'CreditTypeList_edit', '超级管理员', '2014-08-19 10:52:07');
+INSERT INTO `t_operalog` VALUES ('e4f093aa39394b9fad82a021dbf1554f', '资源管理', '操作列表', '删除', '1', '成功删除了[ 增加,修改 ]操作!', 'com.glacier.frame.service.system.ActionService', 'delActions', 'ActionList_del', '超级管理员', '2015-01-07 17:49:57');
+INSERT INTO `t_operalog` VALUES ('e6aea104fd066b23075f7c7568bb3895', '资源管理', '菜单树', '删除', '1', '成功删除名称为：[ 密保问题 ]菜单', 'com.glacier.frame.service.system.MenuService', 'delMenu', 'MenuTree_del', '超级管理员', '2015-01-07 17:50:54');
 INSERT INTO `t_operalog` VALUES ('eb94787cb96cb23ec98f897142bf7e97', '登录日志', '登录日志列表', '删除', '1', '成功删除了[ 超级管理员 ]操作', 'com.glacier.frame.service.system.LoginLogService', 'delLoginLog', 'LoginlogList_del', '超级管理员', '2014-08-18 15:22:47');
+INSERT INTO `t_operalog` VALUES ('f0b4537f3c75111e14818b6cd0ab74e3', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 地区树 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:52:22');
+INSERT INTO `t_operalog` VALUES ('fe2df921ac6e99cf75e34d22d48b8161', '资源管理', '面板列表', '删除', '1', '成功删除名称为：[ 会员信息列表 ]mianban ', 'com.glacier.frame.service.system.PanelService', 'delPanel', 'PanelList_del', '超级管理员', '2015-01-07 17:49:59');
 
 -- ----------------------------
 -- Table structure for `t_panel`
@@ -643,37 +754,26 @@ CREATE TABLE `t_panel` (
 -- ----------------------------
 -- Records of t_panel
 -- ----------------------------
-INSERT INTO `t_panel` VALUES ('0ff45a0906e1ec4b169953b2c177db3e', '8b442566ffbc9531ee5e3aef7c41d740', '认证列表', 'MemberAuthList', '1');
 INSERT INTO `t_panel` VALUES ('20814591aaa67351ab28198ec8531c80', '5b6eaabb2c3a020c4d85ab50d11ffd85', '友情列表', 'LinkList', '1');
-INSERT INTO `t_panel` VALUES ('21gfdg1rgrh1dfhsjdfh124564sdf21d', 't110147c5e6c1e94ee70cc833aa7f5d3', '年龄列表', 'AgeList', '1');
 INSERT INTO `t_panel` VALUES ('28fe18d693742ae7db094fc750715c46', '54d652799e07bb8be54483301a89ff90', '帮助列表', 'HelpList', '1');
 INSERT INTO `t_panel` VALUES ('3456eg4157cf483a790f4eea35ds5675', 'sdsfeg4157cf483a790f4eea35ds5675', '下拉列表', 'OptgroupValueList', '1');
-INSERT INTO `t_panel` VALUES ('34eg454c5e6c1e94ee70cc833asd87', 'sdeg454c5e6c1e94ee70cc833asd142', '积分列表', 'IntegralList', '1');
 INSERT INTO `t_panel` VALUES ('37011217016636a0723462dbc81bf887', '91ca1b4b197688f21b68a72f69e09a8d', '管理员列表', 'UserList', '1');
 INSERT INTO `t_panel` VALUES ('3fae5276226498a6cb1b5cf466793cd6', '14sdf54157cf483a790f4eea35dsf6f6', '信用类别', 'creditType', '27');
 INSERT INTO `t_panel` VALUES ('4546fgrgrh1dfhsjdfh124564sdf2sag', 'sdsfeg4157cf483a790f4eea35ds5675', '下拉项树', 'OptgroupTree', '2');
 INSERT INTO `t_panel` VALUES ('557cf8b2740e6792f517138703afb407', 'ac892df07f9087fb1c89ac968bb5f555', '操作日志列表', 'OperalogList', '1');
 INSERT INTO `t_panel` VALUES ('5731697aea23532eb8162f5ba1818c6f', '54eb754157cf483a790f4eea35200118', '菜单树', 'MenuTree', '1');
-INSERT INTO `t_panel` VALUES ('5a5b45f5c22bb597247bf1ba380f8968', '9dc3357651c9ecbb9b7c51005be28d18', '密保列表', 'secretSecurityList', '1');
 INSERT INTO `t_panel` VALUES ('5cd4cb6d36559b7d7e3a022e53a3bd71', 'a652d3fe69c067cb94b73361351b8378', '新闻列表', 'NewsList', '1');
 INSERT INTO `t_panel` VALUES ('60ef5b40e8753bdc2909a2413a379091', '14sdf54157cf483a790f4eea35dsf6f6', 'asdf', 'adf', '1');
 INSERT INTO `t_panel` VALUES ('780a15a12d2fc981cccb418dafce08b2', '4f1b6666b70be892469b6e93c1eb30ce', '导航树', 'NavTree', '1');
 INSERT INTO `t_panel` VALUES ('83bbeed02a85549ae84cde8d98bcd8c1', 'e550884c5e6c1e94ee70cc833aa1c2b9', '角色列表', 'RoleList', '1');
 INSERT INTO `t_panel` VALUES ('86d2ccad701f94c9e80d71557b1c62e6', '88ee044d59911b3b1a67ba4cdd0ee90d', '公告列表', 'AnnouncementList', '1');
-INSERT INTO `t_panel` VALUES ('87gfdg1rgrh1dfhsjdfh124564sderbg', 'v465654c5e6c1e94ee70cc833asd142', '信用列表', 'CreditList', '1');
 INSERT INTO `t_panel` VALUES ('93fc21dd1e7d69dd439c77c9e94e25af', 'e75a41ba4a2bc299e3b50a15580a103b', '客服列表', 'ServiceList', '1');
 INSERT INTO `t_panel` VALUES ('961d2e73b3fa93a9f125fb731e0a9529', '54eb754157cf483a790f4eea35200118', '面板列表', 'PanelList', '2');
-INSERT INTO `t_panel` VALUES ('98954ee69de34d2515468cbc031376ec', '33f5e9959e821a58696e2d2fb5c322fc', '问题列表', 'QuestionList', '1');
 INSERT INTO `t_panel` VALUES ('a1d130de95607ffc00fb455c749cf1a1', 'ab01dd2ac38d920f691bbc65b7a4bfb2', '招聘列表', 'HiringList', '1');
-INSERT INTO `t_panel` VALUES ('a6776188d6b27af2659a71f77ff71e02', '054464fdb73c76b5cfd4efa16fcaa8e1', '信用类别列表', 'CreditTypeList', '1');
-INSERT INTO `t_panel` VALUES ('b10c70408381896f937bfe688daf8c25', '703a3f819925f89a9c370c0324d784a0', '信息通知列表', 'MessageNoticeList', '1');
 INSERT INTO `t_panel` VALUES ('b8a03efe50a44d460983badb4be96eea', 'b34761b59816e63743643c6f179683a4', '广告列表', 'AdvertisementList', '1');
 INSERT INTO `t_panel` VALUES ('e6784ccad10e3414b99b77b303a338c7', '93f0fcfa7cdff069d929723062b53211', '变量列表', 'VariablesList', '1');
 INSERT INTO `t_panel` VALUES ('eb2a84c4b7bd11632135e4992ade286e', '54eb754157cf483a790f4eea35200118', '操作列表', 'ActionList', '3');
 INSERT INTO `t_panel` VALUES ('f769a64bb571aa0c7ac269b807af4782', 'e42b98561176563f930d82c80b041ed8', '登录日志列表', 'LoginlogList', '1');
-INSERT INTO `t_panel` VALUES ('f77e36ed70a04d8123a466f8dd0a9b5b', '3d69786613fe15615172d1ae22defed4', '积分类别列表', 'integralTypeList', '1');
-INSERT INTO `t_panel` VALUES ('fc5113080081ca9c40d5fc0a7b66da8b', '4c654b11b08eecbf6eb4e6688ea83b7d', '会员信息列表', 'MemberList', '1');
-INSERT INTO `t_panel` VALUES ('swdf697aea23532eb8162f5ba1818c6f', 'de34654c5e6c1e94ee70cc833asd142', '地区树', 'AreaTree', '1');
 
 -- ----------------------------
 -- Table structure for `t_parameter_age`
@@ -1101,8 +1201,6 @@ CREATE TABLE `t_role` (
 -- ----------------------------
 -- Records of t_role
 -- ----------------------------
-INSERT INTO `t_role` VALUES ('56078492e2eed9eb33f32c3af54a8e3f', 'TEST', '测试角色', 'custom', '测试角色', '8b25651c2d896297530b64e4b80ec503', '2014-07-08 00:00:00');
-INSERT INTO `t_role` VALUES ('82377d83fb14858155e1c07d847e88f8', 'AA', 'kk', 'custom', '', '8b25651c2d896297530b64e4b80ec503', '2014-08-19 10:00:11');
 INSERT INTO `t_role` VALUES ('c87dd7161dbf8777c41b8cbfaa985db4', 'ADMIN', '超级管理员', 'admin', null, '8b25651c2d896297530b64e4b80ec503', '2014-01-16 02:58:58');
 
 -- ----------------------------
@@ -1132,8 +1230,6 @@ CREATE TABLE `t_user` (
 -- Records of t_user
 -- ----------------------------
 INSERT INTO `t_user` VALUES ('8b25651c2d896297530b64e4b80ec503', 'admin', '超级管理员', '5dc10e7826e648ec6f136974c38f81d0e5e1d0ae', 'e03b1b95ceff4db6', 'enable', 'admin', 'admin@glacier.cn', null, null, '2014-08-19 10:12:07', '127.0.0.1[本地]', '939', '8b25651c2d896297530b64e4b80ec503', '2014-02-27 02:58:02');
-INSERT INTO `t_user` VALUES ('d31a15b0c9abe32744dc16203b9547d8', 'administrators', '客户管理员', 'f418eabf12e35e6112d8783ef6751c0da68782b5', 'd5a18894f8d85631', 'enable', 'custom', 'administrators@qq.com', null, '后台管理员', null, null, '0', '8b25651c2d896297530b64e4b80ec503', '2014-07-28 16:30:17');
-INSERT INTO `t_user` VALUES ('d6dc13121742a3b331dcb6f93d4f4bce', 'adminTest', '客户管理员', 'd7d62bc0a343ffea509247f1a7c92120e762771d', 'baaa252597ec918e', 'enable', 'custom', 'adminTest@163.com', null, '客户、测试使用账号', '2014-08-04 17:53:34', '127.0.0.1[本地]', '4', '8b25651c2d896297530b64e4b80ec503', '2014-07-14 13:40:42');
 
 -- ----------------------------
 -- Table structure for `t_user_role`
@@ -1151,9 +1247,6 @@ CREATE TABLE `t_user_role` (
 -- ----------------------------
 -- Records of t_user_role
 -- ----------------------------
-INSERT INTO `t_user_role` VALUES ('8b25651c2d896297530b64e4b80ec503', '56078492e2eed9eb33f32c3af54a8e3f');
-INSERT INTO `t_user_role` VALUES ('d31a15b0c9abe32744dc16203b9547d8', '56078492e2eed9eb33f32c3af54a8e3f');
-INSERT INTO `t_user_role` VALUES ('d6dc13121742a3b331dcb6f93d4f4bce', '56078492e2eed9eb33f32c3af54a8e3f');
 INSERT INTO `t_user_role` VALUES ('8b25651c2d896297530b64e4b80ec503', 'c87dd7161dbf8777c41b8cbfaa985db4');
 
 -- ----------------------------
